@@ -12,6 +12,7 @@ body {
     background-image: url('https://www.minecraft.net/content/dam/games/minecraft/key-art/MCV-Trails-and-Tales_Full-Bleed-Hero-Desktop_Keyart_2880x1320.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100%;
 }
 
@@ -186,4 +187,34 @@ footer {
     width: 100%;
     justify-content: space-between;
     padding: 20px;
+}
+
+.main-textt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content .main-textt a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 1px solid white;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content .main-textt a:hover {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    transition: .4s;
 }
